@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>twigkit</groupId>
     <artifactId>cachalot</artifactId>
-    <version>1.6-SNAPSHOT</version>
+    <version>1.6</version>
     <packaging>jar</packaging>
     <name>cachalot</name>
     <description>Guice/AOP annotation to cache access to methods, and skip invocation for cached return value.
@@ -61,7 +61,7 @@
     <!-- Repositories -->
     <repositories>
         <repository>
-            <id>repo.twigkit.com</id>
+            <id>twigkit.com</id>
             <name>TwigKit</name>
             <url>http://twigkit.artifactoryonline.com/twigkit/repo/</url>
             <releases>
@@ -81,13 +81,13 @@
     <!-- Distribution management -->
     <distributionManagement>
         <repository>
-            <id>repo.twigkit.com-releases</id>
-            <name>TwigKit Releases</name>
+            <id>twigkit.com-releases</id>
+            <name>Twigkit Releases</name>
             <url>http://twigkit.artifactoryonline.com/twigkit/release</url>
         </repository>
         <snapshotRepository>
-            <id>repo.twigkit.com-snapshots</id>
-            <name>TwigKit Snapshots</name>
+            <id>twigkit.com-snapshots</id>
+            <name>Twigkit Snapshots</name>
             <url>http://twigkit.artifactoryonline.com/twigkit/snapshot</url>
             <uniqueVersion>true</uniqueVersion>
         </snapshotRepository>
