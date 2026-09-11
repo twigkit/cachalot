@@ -3,8 +3,6 @@
     <diskStore path="java.io.tmpdir"/>
     <transactionManagerLookup class="net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup" properties="jndiName=java:/TransactionManager" propertySeparator=";"/>
     <cacheManagerEventListenerFactory class="" properties=""/>
-    <cacheManagerPeerProviderFactory class="net.sf.ehcache.distribution.RMICacheManagerPeerProviderFactory" properties="peerDiscovery=automatic, multicastGroupAddress=230.0.0.1, multicastGroupPort=4446, timeToLive=1" propertySeparator=","/>
-    <cacheManagerPeerListenerFactory class="net.sf.ehcache.distribution.RMICacheManagerPeerListenerFactory"/>
 
     <defaultCache maxElementsInMemory="5000" eternal="false" timeToIdleSeconds="120" timeToLiveSeconds="120" overflowToDisk="false" diskSpoolBufferSizeMB="30" maxElementsOnDisk="10000000" diskPersistent="false" diskExpiryThreadIntervalSeconds="120" memoryStoreEvictionPolicy="LRU" statistics="false"/>
 
